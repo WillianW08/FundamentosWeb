@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willian Weslei - Portfólio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Menu de navegação -->
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre Mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+      <h1>Sobre Mim</h1>
+      <p>Meu nome é <strong>Willian Weslei da Silva</strong>, tenho 36 anos, sou casado e tenho três cachorros.</p>
+      <p>Meu hobby é jogar <strong>futevôlei</strong>. Faço aulas duas vezes por semana e, sempre que possível, disputo torneios junto com minha esposa, que também joga.</p>
+    </section>
+
+     <!-- Imagem sobre mim -->
+  <img src="imagens/futevolei.png" alt="Foto jogando futevôlei" class="foto-sobre">
+</section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+      <h1>Formação Acadêmica e Idiomas</h1>
+      <ul>
+        <li>Técnico em Mecatrônica</li>
+        <li>Cursando Análise e Desenvolvimento de Sistemas</li>
+        <li>Idiomas:
+          <ul>
+            <li>Português (Nativo)</li>
+            <li>Inglês (Básico)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+      <img src="imagens/mecatronica.jpg" alt="Imagem representando minha formação" class="foto-formacao">
+</section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+      <h1>Portfólio</h1>
+      <p>Acesse meu portfólio no GitHub:</p>
+      <a href="https://github.com/seuusuario" target="_blank">Meu GitHub</a>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+      <h1>Contato</h1>
+      <p>Email: <strong>willianweslei08@hotmail.com</strong></p>
+
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
